@@ -10,13 +10,15 @@ export class AppComponent implements OnInit {
   lastName: String;
   title: String;
 
-  ngOnInit = () => {
+  ngOnInit() {
+    this.firstName = 'Karthikeyan';
+    this.lastName = 'Karuppusamy';
     console.log('Component loaded');
   }
   constructor() {
-    this.firstName = 'Karthikeyan';
-    this.lastName = 'Karuppusamy';
+
   }
+
   SubmitFunc = (a, b) => {
     this.title = a + ' ' + b;
   }
