@@ -1,0 +1,19 @@
+.container{
+    display:block;
+    margin: 05%;
+}
+input{
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    border-bottom: 2px solid mediumseagreen;
+    display: block;
+}
+input:focus{
+    outline: none;
+}
+
+.group{
+    display:block;
+    margin-bottom: 50px;
+}
